@@ -20,14 +20,14 @@ export default function Intro({darkMode}) {
             </div>
           </div>
         <p className="intro-description">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium quas aspernatur autem, at neque distinctio illo consectetur. Aspernatur aperiam voluptates tempora dolores sint ab totam consequatur. Eligendi architecto cupiditate quasi!
+          Hi, I am a self-taught web developer who loves creating and building things! Feel free to reach out to me on my socials below and thanks for visiting!
         </p>
         </div>
       </div>
       
       <div className="intro-right">
         <div className="intro-right-wrapper">
-        need to put something cool over here...
+        Need to put something cool over here...
         </div>
       </div>
 
