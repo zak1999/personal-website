@@ -1,0 +1,109 @@
+/* Dark Mode
+
+bg: #0c191e
+#fabc17
+#96a2ac
+cl2:
+#665856
+*/
+
+/* Light Mode 
+bg:#dbd7d3
+cl1:#171b18 footer and fakewindow
+cl2:#2b4f41 paras
+cl3:#b4463e titles?
+*/
+
+/* 
+#eaeded
+#3c302b
+ 
+#9f4d38
+#e5a586
+*/
+.intro{
+  display: flex;
+  height: 100vh;
+  width: 100%;
+}
+.intro-right,.intro-left{
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.intro-right{
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+
+}
+.intro-right-wrapper{
+  padding: 50px;
+  /* height: 40%; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.intro-left-wrapper{
+  padding: 50px;
+  /* height: 40%; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.intro-content{
+  font-size: 30px;
+  font-weight: 300;
+}
+.intro-name{
+  font-size: 60px;  
+}
+.intro-title-wrapper{
+  height: 100%;
+  width: 100%;
+}
+.intro-title{
+  margin: 20px 0px; 
+}
+
+.intro-title-item{
+  padding-bottom: 5px;
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.intro-description{
+  font-size: 25px;
+}
+.intro-scroll-btn{
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  bottom: 20px;
+  stroke: white;
+}
+
+@media screen and (max-width:480px) {
+  .intro{
+    flex-direction: column;
+  }
+
+  .intro-left-wrapper{
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    min-width: 100%;
+    padding: 0;
+
+  }
+  .intro-title-wrapper{
+    display: flex;
+
+    justify-content: center;
+  }
+}

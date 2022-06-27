@@ -1,0 +1,28 @@
+.f{
+  display: flex;
+	background: #dadada;
+	padding: 1.5em 2em;
+  font-size: smaller;
+  justify-content: center;
+}
+.f-main{
+  width: 40%;
+  margin: auto;
+}
+.f-socials{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.f-social-item{
+  list-style: none;
+
+}
+
+@media screen and (max-width:480px) {
+  .f{
+    flex-direction: column;
+  }
+  
+}
